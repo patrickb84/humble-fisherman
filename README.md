@@ -1,7 +1,8 @@
 # :fishing_pole_and_fish: Humble Fisherman
 
+#### :trophy: _Award-winning_, text-based fishing game in Java.
+
 ![App Cover](https://i.ibb.co/8zxszHV/humblecover.jpg)
-:trophy: _Award-winning_, text-based fishing game in Java.
 
 > ### _"The object of the game is to catch enough fish to buy a boat"_
 
