@@ -1,8 +1,10 @@
+![Cover Art](https://i.ibb.co/dG8wj2B/humblegithub.jpg)
+
 # :fishing_pole_and_fish: Humble Fisherman
 
 **_Award-winning_, text-based fishing game in Java.**
 
-![App Cover](https://i.ibb.co/8zxszHV/humblecover.jpg)
+![Header Image](https://i.ibb.co/8zxszHV/humblecover.jpg)
 
 > _"The object of the game is to catch enough fish to buy a boat"_
 
