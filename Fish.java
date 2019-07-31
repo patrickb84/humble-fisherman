@@ -1,4 +1,3 @@
-package HumbleFisherman;
 
 /******************************************
 * Authors:   Patrick Bradshaw
@@ -17,24 +16,20 @@ import java.util.Random;
 public class Fish {
    // FIELDS
    Random rand = new Random();
-   
-   private String[] adjectives = {
-      "cute", "happy", "chubby", "majestic", "beautiful", "sad"
-      };
-   private String[] species = {
-      "tuna", "salmon", "halibut", "mackarel", "seabass", "carp"
-      };
+
+   private String[] adjectives = { "cute", "happy", "chubby", "majestic", "beautiful", "sad" };
+   private String[] species = { "tuna", "salmon", "halibut", "mackarel", "seabass", "carp" };
    private int weight = 0;
    private String fishName = "";
-   
+
    // METHODS
    public String getName() {
       int dice1 = rand.nextInt(6);
       int dice2 = rand.nextInt(6);
       fishName = adjectives[dice1] + " " + species[dice2];
-   return fishName;
+      return fishName;
    }
-   
+
    public int getWeight(boolean nicePole) {
       weight = rand.nextInt(10) + 2;
       if (nicePole) {
