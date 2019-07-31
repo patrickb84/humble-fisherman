@@ -8,4 +8,4 @@
 
 This was a final group project for a _Fundamentals of Programming_ class. We made use of a constant loop, plenty of conditionals, several system libraries. It's just a fun game that was modeled a partly after the fishing game in _Ocarina of Time_. It was voted the best project that semester and featured in a department-wide showcase.
 
-**:game_die: Play it [here](https://repl.it/@PatrickBradshaw/HumbleFisherman)!**
+**:game_die: Play it [here](https://HumbleFisherman.patrickbradshaw.repl.run)!**
