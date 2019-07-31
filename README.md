@@ -1,4 +1,4 @@
-# :fishing_pole_and_fish: Humble Fisherman
+# Humble Fisherman :fishing_pole_and_fish: 
 
 **:trophy: _Award-winning_, text-based fishing game in Java.**
 
