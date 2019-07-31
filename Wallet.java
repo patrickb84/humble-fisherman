@@ -1,15 +1,18 @@
 /******************************************
- * Authors: Patrick Bradshaw Punamai Futialo Tenzin Rabjam
- *
- * Date: 4/23/2017
- *
- * Class Wallet represents a wallet to be used in the game HumbleFisherman.
- *******************************************/
+* Authors:   Patrick Bradshaw
+*               Punamai Futialo
+*                  Tenzin Rabjam
+*
+* Date:   4/23/2017
+*
+* Class Wallet represents a wallet to be 
+* used in the game HumbleFisherman.
+*******************************************/
 
 public class Wallet {
    // FIELDS
    int wallet = 0;
-
+   
    // METHODS
    public void wallet() {
       if (wallet == 0)
@@ -23,16 +26,16 @@ public class Wallet {
       }
       return;
    }
-
+   
    public int getWallet() {
       return wallet;
    }
-
+   
    public void addMoney(int total) {
       wallet += total;
       return;
    }
-
+   
    public void subtractMoney(int total) {
       wallet -= total;
       return;
