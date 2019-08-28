@@ -38,7 +38,7 @@ public class Main {
       final int MAX_COUNTER = 16;
       boolean nicePole = false;
       boolean rareLure = false;
-      int userInput;
+      int userInput = 0;
       int userStore;
       int diceRoll;
       boolean goodLuck;
@@ -67,9 +67,18 @@ public class Main {
          boolean turnOver = false;
 
          do {
-            System.out.println();
-            e.showMenu();
-            userInput = input.nextInt();
+            boolean isNumeric = false;
+            while(!isNumeric){
+              try {
+                  System.out.println();
+                  e.showMenu();
+                  userInput = input.nextInt(); 
+                  isNumeric = true;
+              } catch(Exception excpt) {
+                System.out.println("Enter a valid number!");
+                input.nextLine();//Advance the scanner
+              }
+            }
 
             switch (userInput) {
             case 1: // cast line event
