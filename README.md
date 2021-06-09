@@ -1,5 +1,3 @@
-![Cover Art](https://i.ibb.co/dG8wj2B/humblegithub.jpg)
-
 # :fishing_pole_and_fish: Humble Fisherman
 
 _Award-winning_, text-based fishing game in Java.
